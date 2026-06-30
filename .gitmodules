@@ -1,7 +1,3 @@
-[submodule "c2cgeoportal"]
-	path = c2cgeoportal
-	url = https://github.com/maltaesousa/c2cgeoportal.git
-	branch = test-oapif
 [submodule "docker-qgis-server"]
 	path = docker-qgis-server
 	url = https://github.com/maltaesousa/docker-qgis-server.git

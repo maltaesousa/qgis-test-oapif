@@ -14,6 +14,5 @@ docker build --build-arg QGIS_BRANCH=server-oapif-ogcapi-feature-schema-2 --targ
 
 Test it:
 ```sh
-docker run --publish=8380:80 --volume=${PWD}/test_project:/etc/qgisserver --env PGSERVICEFILE=/etc/qgisserver/pg_service.conf --env QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs ghcr.io/sitn/qgis-server:ogc-api-test-1
+docker run --publish=8380:80 --volume=${PWD}/test_project:/etc/qgisserver --env QGIS_SERVER_LANDING_PAGE_PROJECTS_DIRECTORIES=/etc/qgisserver ghcr.io/sitn/qgis-server:ogc-api-test-1
 ```
-
