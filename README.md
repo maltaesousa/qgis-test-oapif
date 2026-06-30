@@ -1,5 +1,9 @@
 # TEST Docker image for QGIS server
 
+```
+git clone --recurse-submodules https://github.com/maltaesousa/qgis-test-oapif.git
+```
+
 ## Build
 
 Build docker-qgis-server
@@ -12,3 +16,4 @@ Test it:
 ```sh
 docker run --publish=8380:80 --volume=${PWD}/test_project:/etc/qgisserver --env PGSERVICEFILE=/etc/qgisserver/pg_service.conf --env QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs ghcr.io/sitn/qgis-server:ogc-api-test-1
 ```
+
