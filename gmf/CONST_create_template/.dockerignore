@@ -1,0 +1,17 @@
+*
+!bin/
+!mapserver/
+!qgisserver/
+!tilegeneration/
+!haproxy/
+!print/print-apps/
+!geoportal/vars*.yaml
+!geoportal/interfaces/
+!geoportal/CONST_vars.yaml
+!geoportal/CONST_config-schema.yaml
+!geoportal/gmf_geoportal/static
+!geoportal/gmf_geoportal/locale
+geoportal/gmf_geoportal/locale/*.pot
+!geoportal/gmf_geoportal/authentication.py
+!geoportal/gmf_geoportal/multi_tenant.py
+!geoportal/gmf_geoportal/dev.py

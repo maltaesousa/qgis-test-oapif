@@ -1,0 +1,19 @@
+---
+project_folder: gmf
+project_package: gmf
+application_url: https://localhost:8484/
+checker_url: https://172.17.0.1:8484/c2c/health_check?max_level=9
+managed_files: []
+unmanaged_files: []
+template_vars:
+  package: gmf
+  srid: 2056
+  extent: 2420000,1030000,2900000,1350000
+  authtkt_secret: AI57iQVQgzeZ8Q0FoqIxSewR4zRAkWAACYxcuIr0JNLbKDlpQcnW9TSZtP6AfgXO
+  tilecloudchain_jwt_secret: Wi9VfqjcJ0OepXL6HBRe7lpwlbnMAvNycC3W6gQPvoJV7Xd3qlNHbi2mML0SU4Mj
+env:
+  files:
+    - env.default
+    - env.project
+  required_args: 0
+  help: No arguments needed.

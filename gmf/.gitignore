@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+__pycache__/
+/.env
+/env.personal
+/docker-compose.override.yaml
+/upgrade
+/.upgrade.yaml
+/.UPGRADE*
+/geoportal/gmf_geoportal/locale/gmf_geoportal-client.pot
+
+# Generated with dev mode
+/geoportal/gmf_geoportal/static/apihelp/index.html
+/geoportal/gmf_geoportal/static/robot.txt
+/print/print-apps/gmf/config.yaml
+/mapserver/tinyows.xml
+/postgres_data/
